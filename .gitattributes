@@ -1,0 +1,14 @@
+* text=auto
+*.java text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.gradle text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+*.png binary
+*.webp binary
+*.jar binary
+# Preserve exact upstream bytes for the asset integrity baseline.
+app/src/main/assets/pet/** -text

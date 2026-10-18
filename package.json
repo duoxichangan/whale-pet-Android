@@ -1,0 +1,8 @@
+{
+  "name": "whale-pet-android",
+  "version": "2.3.0",
+  "private": true,
+  "scripts": {
+    "test": "node tools/check-project.cjs"
+  }
+}

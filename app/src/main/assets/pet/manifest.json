@@ -1,0 +1,1141 @@
+{
+  "schema": 2,
+  "format": "animated-webp-alpha",
+  "source": "https://github.com/PC2005-cloud/dsh-pet",
+  "commit": "7f507e20e5b4f64cc9d51a44454ba13b13e789cd",
+  "license": "MIT",
+  "canvas": {
+    "width": 480,
+    "height": 270
+  },
+  "hitBox": {
+    "x": 200,
+    "y": 50,
+    "width": 240,
+    "height": 285
+  },
+  "scale": 0.5,
+  "outfits": [
+    {
+      "id": "daily",
+      "label": "蓝白常服"
+    }
+  ],
+  "clips": {
+    "idle": {
+      "file": "animations/idle.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "greet": {
+      "file": "animations/greet.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "happy": {
+      "file": "animations/happy.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "shy": {
+      "file": "animations/shy.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "laugh": {
+      "file": "animations/laugh.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "proud": {
+      "file": "animations/proud.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "walk": {
+      "file": "animations/walk.webp",
+      "duration": 10066,
+      "movement": {
+        "minDist": 40,
+        "maxDist": 120,
+        "margin": 20,
+        "leadSec": 2,
+        "tailSec": 2
+      }
+    },
+    "run": {
+      "file": "animations/run.webp",
+      "duration": 10066,
+      "movement": {
+        "minDist": 120,
+        "maxDist": 320,
+        "margin": 20,
+        "leadSec": 1.75,
+        "tailSec": 4.8
+      }
+    },
+    "rest": {
+      "file": "animations/rest.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "reading": {
+      "file": "animations/reading.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "working": {
+      "file": "animations/working.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "done": {
+      "file": "animations/done.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "eat_snacks": {
+      "file": "animations/eat_snacks.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "eat_rice": {
+      "file": "animations/eat_rice.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "play_bubbles": {
+      "file": "animations/play_bubbles.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "play_stars": {
+      "file": "animations/play_stars.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_000": {
+      "file": "animations/action_000.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_001": {
+      "file": "animations/action_001.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_002": {
+      "file": "animations/action_002.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_003": {
+      "file": "animations/action_003.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_004": {
+      "file": "animations/action_004.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_005": {
+      "file": "animations/action_005.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_006": {
+      "file": "animations/action_006.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_007": {
+      "file": "animations/action_007.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_008": {
+      "file": "animations/action_008.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_009": {
+      "file": "animations/action_009.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_010": {
+      "file": "animations/action_010.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_011": {
+      "file": "animations/action_011.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_013": {
+      "file": "animations/action_013.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_014": {
+      "file": "animations/action_014.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_015": {
+      "file": "animations/action_015.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_016": {
+      "file": "animations/action_016.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_019": {
+      "file": "animations/action_019.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_022": {
+      "file": "animations/action_022.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_023": {
+      "file": "animations/action_023.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_024": {
+      "file": "animations/action_024.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_025": {
+      "file": "animations/action_025.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_026": {
+      "file": "animations/action_026.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_027": {
+      "file": "animations/action_027.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_028": {
+      "file": "animations/action_028.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_029": {
+      "file": "animations/action_029.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_030": {
+      "file": "animations/action_030.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_031": {
+      "file": "animations/action_031.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_032": {
+      "file": "animations/action_032.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_033": {
+      "file": "animations/action_033.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_035": {
+      "file": "animations/action_035.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_036": {
+      "file": "animations/action_036.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_037": {
+      "file": "animations/action_037.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_038": {
+      "file": "animations/action_038.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_039": {
+      "file": "animations/action_039.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_040": {
+      "file": "animations/action_040.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_041": {
+      "file": "animations/action_041.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_042": {
+      "file": "animations/action_042.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_043": {
+      "file": "animations/action_043.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_044": {
+      "file": "animations/action_044.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_045": {
+      "file": "animations/action_045.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_046": {
+      "file": "animations/action_046.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_048": {
+      "file": "animations/action_048.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_049": {
+      "file": "animations/action_049.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_050": {
+      "file": "animations/action_050.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_051": {
+      "file": "animations/action_051.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_052": {
+      "file": "animations/action_052.webp",
+      "duration": 4932,
+      "movement": null
+    },
+    "action_053": {
+      "file": "animations/action_053.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_054": {
+      "file": "animations/action_054.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_055": {
+      "file": "animations/action_055.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_058": {
+      "file": "animations/action_058.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_059": {
+      "file": "animations/action_059.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_060": {
+      "file": "animations/action_060.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_061": {
+      "file": "animations/action_061.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_062": {
+      "file": "animations/action_062.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_063": {
+      "file": "animations/action_063.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_064": {
+      "file": "animations/action_064.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_065": {
+      "file": "animations/action_065.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_066": {
+      "file": "animations/action_066.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_067": {
+      "file": "animations/action_067.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_068": {
+      "file": "animations/action_068.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_069": {
+      "file": "animations/action_069.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_070": {
+      "file": "animations/action_070.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_071": {
+      "file": "animations/action_071.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_072": {
+      "file": "animations/action_072.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_073": {
+      "file": "animations/action_073.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_074": {
+      "file": "animations/action_074.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_075": {
+      "file": "animations/action_075.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_081": {
+      "file": "animations/action_081.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_082": {
+      "file": "animations/action_082.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_083": {
+      "file": "animations/action_083.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_084": {
+      "file": "animations/action_084.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_085": {
+      "file": "animations/action_085.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_086": {
+      "file": "animations/action_086.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_087": {
+      "file": "animations/action_087.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_088": {
+      "file": "animations/action_088.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_089": {
+      "file": "animations/action_089.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_090": {
+      "file": "animations/action_090.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_091": {
+      "file": "animations/action_091.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_092": {
+      "file": "animations/action_092.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_093": {
+      "file": "animations/action_093.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_094": {
+      "file": "animations/action_094.webp",
+      "duration": 10066,
+      "movement": {
+        "minDist": 60,
+        "maxDist": 240,
+        "margin": 20,
+        "leadSec": 2,
+        "tailSec": 2
+      }
+    },
+    "action_095": {
+      "file": "animations/action_095.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_096": {
+      "file": "animations/action_096.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_097": {
+      "file": "animations/action_097.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_098": {
+      "file": "animations/action_098.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_099": {
+      "file": "animations/action_099.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_100": {
+      "file": "animations/action_100.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_101": {
+      "file": "animations/action_101.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_102": {
+      "file": "animations/action_102.webp",
+      "duration": 10066,
+      "movement": null
+    },
+    "action_104": {
+      "file": "animations/action_104.webp",
+      "duration": 10066,
+      "movement": null
+    }
+  },
+  "actions": [
+    {
+      "id": "action_000",
+      "name": "三球抛接",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_001",
+      "name": "下五子棋",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_002",
+      "name": "东张西望",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_003",
+      "name": "中秋赏月吃月饼",
+      "category": "时节"
+    },
+    {
+      "id": "action_004",
+      "name": "优雅女仆舞",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_005",
+      "name": "余额-分文不剩",
+      "category": "钱袋表演"
+    },
+    {
+      "id": "action_006",
+      "name": "余额-数金皱眉",
+      "category": "钱袋表演"
+    },
+    {
+      "id": "action_007",
+      "name": "余额-袋空如洗",
+      "category": "钱袋表演"
+    },
+    {
+      "id": "action_008",
+      "name": "余额-金袋叮当",
+      "category": "钱袋表演"
+    },
+    {
+      "id": "action_009",
+      "name": "余额-钱袋如常",
+      "category": "钱袋表演"
+    },
+    {
+      "id": "action_010",
+      "name": "余额-钱袋满溢",
+      "category": "钱袋表演"
+    },
+    {
+      "id": "action_011",
+      "name": "偷吃零食被抓住",
+      "category": "小动作"
+    },
+    {
+      "id": "working",
+      "name": "写代码",
+      "category": "小动作"
+    },
+    {
+      "id": "action_013",
+      "name": "写福字",
+      "category": "时节"
+    },
+    {
+      "id": "action_014",
+      "name": "凭空生花",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_015",
+      "name": "动物环绕",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_016",
+      "name": "原地专心玩魔方",
+      "category": "玩耍"
+    },
+    {
+      "id": "rest",
+      "name": "原地小憩沉眠",
+      "category": "小动作"
+    },
+    {
+      "id": "run",
+      "name": "原地左转奔跑",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_019",
+      "name": "原地敲击桌面互动",
+      "category": "小动作"
+    },
+    {
+      "id": "walk",
+      "name": "原地漂浮踏步",
+      "category": "走动与互动"
+    },
+    {
+      "id": "play_stars",
+      "name": "原地跳跃抓碎头顶物品",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_022",
+      "name": "原地蹲下玩玩具汽车",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_023",
+      "name": "原地重力下蹲压缩",
+      "category": "小动作"
+    },
+    {
+      "id": "action_024",
+      "name": "变鸽子",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_025",
+      "name": "可爱宅舞",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_026",
+      "name": "吃Token",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_027",
+      "name": "吃冰淇淋融化",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_028",
+      "name": "吃午餐",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_029",
+      "name": "吃大闸蟹",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_030",
+      "name": "吃年糕",
+      "category": "时节"
+    },
+    {
+      "id": "action_031",
+      "name": "吃早餐",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_032",
+      "name": "吃晚餐",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_033",
+      "name": "吃汤圆",
+      "category": "时节"
+    },
+    {
+      "id": "eat_rice",
+      "name": "吃白饭",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_035",
+      "name": "吃粽子",
+      "category": "时节"
+    },
+    {
+      "id": "action_036",
+      "name": "吃糖葫芦",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_037",
+      "name": "吃腊八粥",
+      "category": "时节"
+    },
+    {
+      "id": "action_038",
+      "name": "吃西瓜",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_039",
+      "name": "吃重阳糕",
+      "category": "时节"
+    },
+    {
+      "id": "action_040",
+      "name": "吃长寿面",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_041",
+      "name": "吃青团",
+      "category": "时节"
+    },
+    {
+      "id": "action_042",
+      "name": "吃饺子",
+      "category": "时节"
+    },
+    {
+      "id": "action_043",
+      "name": "吹气球",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_044",
+      "name": "吹笛子",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_045",
+      "name": "哈欠连天",
+      "category": "小动作"
+    },
+    {
+      "id": "action_046",
+      "name": "堆雪人",
+      "category": "时节"
+    },
+    {
+      "id": "eat_snacks",
+      "name": "大口吃零食",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_048",
+      "name": "女仆屈膝礼仪",
+      "category": "小动作"
+    },
+    {
+      "id": "action_049",
+      "name": "小幅度原地360度旋转展示",
+      "category": "小动作"
+    },
+    {
+      "id": "action_050",
+      "name": "小提琴演奏",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_051",
+      "name": "工作状态-原地踱步张望",
+      "category": "工作状态"
+    },
+    {
+      "id": "action_052",
+      "name": "工作状态-垂头叹气冒汗",
+      "category": "工作状态"
+    },
+    {
+      "id": "action_053",
+      "name": "工作状态-忙碌点按",
+      "category": "工作状态"
+    },
+    {
+      "id": "action_054",
+      "name": "工作状态-思考冒泡",
+      "category": "工作状态"
+    },
+    {
+      "id": "action_055",
+      "name": "工作状态-清点归档",
+      "category": "工作状态"
+    },
+    {
+      "id": "done",
+      "name": "工作状态-雀跃庆祝",
+      "category": "工作状态"
+    },
+    {
+      "id": "idle",
+      "name": "待机呼吸休闲",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_058",
+      "name": "悠闲哼歌",
+      "category": "小动作"
+    },
+    {
+      "id": "action_059",
+      "name": "扑克魔术",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_060",
+      "name": "打瞌睡被惊醒",
+      "category": "小动作"
+    },
+    {
+      "id": "action_061",
+      "name": "抽陀螺",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_062",
+      "name": "拆礼物",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_063",
+      "name": "插茱萸赏菊",
+      "category": "时节"
+    },
+    {
+      "id": "action_064",
+      "name": "摇扇纳凉",
+      "category": "小动作"
+    },
+    {
+      "id": "action_065",
+      "name": "撸猫",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_066",
+      "name": "收红包",
+      "category": "时节"
+    },
+    {
+      "id": "action_067",
+      "name": "放孔明灯",
+      "category": "时节"
+    },
+    {
+      "id": "action_068",
+      "name": "放河灯",
+      "category": "时节"
+    },
+    {
+      "id": "action_069",
+      "name": "放烟花",
+      "category": "时节"
+    },
+    {
+      "id": "action_070",
+      "name": "放风筝",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_071",
+      "name": "整体换装试色",
+      "category": "小动作"
+    },
+    {
+      "id": "action_072",
+      "name": "是啊，吃什么",
+      "category": "文字"
+    },
+    {
+      "id": "action_073",
+      "name": "晨间刷牙",
+      "category": "小动作"
+    },
+    {
+      "id": "action_074",
+      "name": "涮火锅",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_075",
+      "name": "深度思考碎碎念",
+      "category": "文字"
+    },
+    {
+      "id": "proud",
+      "name": "点击回应-傲娇生气",
+      "category": "点击回应"
+    },
+    {
+      "id": "greet",
+      "name": "点击回应-元气挥手",
+      "category": "点击回应"
+    },
+    {
+      "id": "shy",
+      "name": "点击回应-害羞惊讶",
+      "category": "点击回应"
+    },
+    {
+      "id": "happy",
+      "name": "点击回应-开心跃动",
+      "category": "点击回应"
+    },
+    {
+      "id": "laugh",
+      "name": "点击回应-挠痒咯咯笑",
+      "category": "点击回应"
+    },
+    {
+      "id": "action_081",
+      "name": "照镜子",
+      "category": "小动作"
+    },
+    {
+      "id": "action_082",
+      "name": "玩水枪",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_083",
+      "name": "玩游戏气急败坏",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_084",
+      "name": "用鲸鱼尾巴拍打地面",
+      "category": "小动作"
+    },
+    {
+      "id": "action_085",
+      "name": "碎碎念-发呆碎碎念",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_086",
+      "name": "碎碎念-对屏碎碎念",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_087",
+      "name": "碎碎念-擦桌碎碎念",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_088",
+      "name": "穿针乞巧",
+      "category": "时节"
+    },
+    {
+      "id": "action_089",
+      "name": "舞狮头",
+      "category": "时节"
+    },
+    {
+      "id": "action_090",
+      "name": "荡秋千",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_091",
+      "name": "萌化小幽灵",
+      "category": "时节"
+    },
+    {
+      "id": "action_092",
+      "name": "蓝鲸现世",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_093",
+      "name": "蝴蝶蜜蜂环绕头顶开花",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_094",
+      "name": "螃蟹走路",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_095",
+      "name": "被吓一跳",
+      "category": "小动作"
+    },
+    {
+      "id": "action_096",
+      "name": "被落叶淹没",
+      "category": "时节"
+    },
+    {
+      "id": "action_097",
+      "name": "被鼠标拖拽悬空反馈",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_098",
+      "name": "装点圣诞树",
+      "category": "时节"
+    },
+    {
+      "id": "action_099",
+      "name": "讨糖南瓜灯",
+      "category": "时节"
+    },
+    {
+      "id": "action_100",
+      "name": "超大伸懒腰",
+      "category": "小动作"
+    },
+    {
+      "id": "action_101",
+      "name": "踢毽子",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_102",
+      "name": "轻快摇摆舞",
+      "category": "玩耍"
+    },
+    {
+      "id": "reading",
+      "name": "轻快记录",
+      "category": "小动作"
+    },
+    {
+      "id": "action_104",
+      "name": "骑木马",
+      "category": "玩耍"
+    },
+    {
+      "id": "play_bubbles",
+      "name": "鲸鱼吐泡泡特效",
+      "category": "玩耍"
+    }
+  ],
+  "pools": {
+    "click": [
+      "happy",
+      "shy",
+      "proud",
+      "laugh",
+      "greet"
+    ],
+    "walk": [
+      "action_094",
+      "walk",
+      "run"
+    ],
+    "work": [
+      "working",
+      "action_051",
+      "action_052",
+      "action_053",
+      "action_054",
+      "action_055",
+      "done",
+      "action_075",
+      "reading"
+    ],
+    "rest": [
+      "rest",
+      "action_060",
+      "action_045",
+      "action_100",
+      "idle",
+      "action_058",
+      "action_064",
+      "action_085"
+    ]
+  }
+}

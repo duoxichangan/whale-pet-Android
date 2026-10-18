@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "dailyAmbient": [
+    "action_002",
+    "action_004",
+    "action_005",
+    "action_006",
+    "action_007",
+    "action_008",
+    "action_009",
+    "action_010",
+    "working",
+    "action_013",
+    "action_019",
+    "action_023",
+    "action_025",
+    "action_046",
+    "action_048",
+    "action_049",
+    "action_051",
+    "action_052",
+    "action_053",
+    "action_054",
+    "action_055",
+    "done",
+    "action_058",
+    "action_063",
+    "action_064",
+    "action_066",
+    "action_067",
+    "action_068",
+    "action_069",
+    "action_071",
+    "action_072",
+    "action_073",
+    "action_075",
+    "action_081",
+    "action_084",
+    "action_086",
+    "action_087",
+    "action_088",
+    "action_089",
+    "action_091",
+    "action_096",
+    "action_098",
+    "action_099",
+    "action_102",
+    "reading"
+  ],
+  "restAmbient": [
+    "rest",
+    "action_045",
+    "idle",
+    "action_058",
+    "action_064",
+    "action_085",
+    "action_100"
+  ],
+  "dailyTouch": [
+    "happy",
+    "shy",
+    "proud",
+    "laugh",
+    "greet",
+    "action_095"
+  ],
+  "restTouch": [
+    "action_060",
+    "action_100",
+    "action_085"
+  ],
+  "walking": [
+    "action_094",
+    "walk",
+    "run"
+  ],
+  "drag": [
+    "action_097"
+  ],
+  "base": [
+    "idle"
+  ]
+}

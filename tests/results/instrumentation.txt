@@ -1,0 +1,67 @@
+PASS Original action counts
+PASS Every non-transaction animation is discoverable exactly once
+PASS Random pools exclude food, play, drag and inappropriate sleep actions
+PASS Rest touch and automatic animation use their own pools
+PASS Run weighting is 60 percent; all other eligible clips are equal
+PASS Facing metadata matches left/right movement
+PASS Speech rate, shared clock and no immediate repetition
+PASS Hunger and fatigue reminders both get a turn
+PASS Repeated mode selection does not spam history
+PASS Journal totals use actual effects and merge only close repeated actions
+PASS All original WebP decode with Android native decoder
+PASS All native crop bounds are within source
+PASS Props do not change character scale or source anchor
+PASS Confirmation preview shows clamped effects
+PASS Touch shuffle avoids repeats
+PASS Legacy state, events and settings migrate
+PASS Old immersive mode becomes daily
+PASS Full hunger blocks all 21 foods
+PASS Full remains exactly 100 for 14 minutes
+PASS At 99 every food is accepted
+PASS Hunger carries across frequent commits
+PASS Daily does not recover energy
+PASS Rest restores 30/hour, remains selected
+PASS Walks consume at most 6/hour
+PASS Play refusal preserves original actual energy cost
+PASS Touch cooldown and mood
+PASS Duplicate confirmation across instances settles once
+PASS Concurrent confirmation is serialized
+PASS History capped at 100
+PASS Engine requires confirmation and keeps already settled effects
+PASS Tap response remains interruptible after cooldown
+PASS Offline rest advances without rendering
+PASS Original action counts
+PASS Every non-transaction animation is discoverable exactly once
+PASS Random pools exclude food, play, drag and inappropriate sleep actions
+PASS Rest touch and automatic animation use their own pools
+PASS Run weighting is 60 percent; all other eligible clips are equal
+PASS Facing metadata matches left/right movement
+PASS Speech rate, shared clock and no immediate repetition
+PASS Hunger and fatigue reminders both get a turn
+PASS Repeated mode selection does not spam history
+PASS Journal totals use actual effects and merge only close repeated actions
+PASS All original WebP decode with Android native decoder
+PASS All native crop bounds are within source
+PASS Props do not change character scale or source anchor
+PASS Confirmation preview shows clamped effects
+PASS Touch shuffle avoids repeats
+PASS Legacy state, events and settings migrate
+PASS Old immersive mode becomes daily
+PASS Full hunger blocks all 21 foods
+PASS Full remains exactly 100 for 14 minutes
+PASS At 99 every food is accepted
+PASS Hunger carries across frequent commits
+PASS Daily does not recover energy
+PASS Rest restores 30/hour, remains selected
+PASS Walks consume at most 6/hour
+PASS Play refusal preserves original actual energy cost
+PASS Touch cooldown and mood
+PASS Duplicate confirmation across instances settles once
+PASS Concurrent confirmation is serialized
+PASS History capped at 100
+PASS Engine requires confirmation and keeps already settled effects
+PASS Tap response remains interruptible after cooldown
+PASS Offline rest advances without rendering
+
+Native tests: 32 passed, 0 failed
+

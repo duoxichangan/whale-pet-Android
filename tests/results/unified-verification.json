@@ -1,0 +1,16 @@
+{
+  "sharedHorizontalToolbars": true,
+  "confirmationAppCenteredAndTitleHidden": true,
+  "confirmationOverlayChromeHiddenAndRestored": true,
+  "readOnlyReplay": [
+    "foodAt100",
+    "playAt0Energy",
+    "ambient"
+  ],
+  "journalRemainsVisible": true,
+  "stateUnchangedAfterReplay": true,
+  "silentChannel": true,
+  "onlyAlertOnce": true,
+  "oneOngoingStatus": true,
+  "retainedScreenWindow": true
+}

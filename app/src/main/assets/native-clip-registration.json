@@ -1,0 +1,959 @@
+{
+  "idle": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "greet": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "happy": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "shy": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "laugh": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "proud": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "walk": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas",
+    "facing": "front"
+  },
+  "run": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas",
+    "facing": "left"
+  },
+  "rest": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "reading": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "working": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "done": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "eat_snacks": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "eat_rice": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "play_bubbles": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "play_stars": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_000": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_001": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_002": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_003": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_004": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_005": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_006": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_007": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_008": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_009": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_010": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_011": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_013": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_014": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_015": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_016": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_019": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_022": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_023": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.28,
+    "referenceHeight": 216,
+    "registration": "small-seated-pose-head-calibration"
+  },
+  "action_024": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_025": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_026": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_027": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_028": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_029": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_030": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_031": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_032": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_033": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_035": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_036": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_037": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_038": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_039": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_040": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_041": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_042": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_043": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_044": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_045": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_046": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_048": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_049": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_050": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_051": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_052": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_053": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_054": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_055": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_058": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_059": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_060": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_061": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_062": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_063": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_064": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_065": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_066": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_067": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_068": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_069": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_070": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_071": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_072": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_073": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_074": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_075": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_081": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_082": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_083": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_084": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_085": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_086": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_087": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_088": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_089": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_090": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_091": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_092": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_093": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_094": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas",
+    "facing": "left"
+  },
+  "action_095": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_096": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_097": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_098": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_099": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_100": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_101": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_102": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  },
+  "action_104": {
+    "anchor": [
+      240,
+      248
+    ],
+    "bodyScale": 1.0,
+    "referenceHeight": 216,
+    "registration": "shared-source-canvas"
+  }
+}

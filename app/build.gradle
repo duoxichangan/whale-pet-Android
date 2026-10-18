@@ -1,0 +1,34 @@
+plugins { id 'com.android.application' }
+
+def signingProperties = new Properties()
+def signingFile = rootProject.file('signing/signing.properties')
+if (signingFile.exists()) signingFile.withInputStream { signingProperties.load(it) }
+
+android {
+    namespace 'com.whale.pet'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'com.whale.pet'
+        minSdk 28
+        testInstrumentationRunner "com.whale.pet.NativeTests"
+        targetSdk 35
+        versionCode 11
+        versionName '2.3.0'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    signingConfigs {
+        localRelease {
+            if (signingFile.exists()) {
+                storeFile rootProject.file(signingProperties['storeFile'])
+                storePassword signingProperties['storePassword']
+                keyAlias signingProperties['keyAlias']
+                keyPassword signingProperties['keyPassword']
+            }
+        }
+    }
+    buildTypes { release { minifyEnabled false; if (signingFile.exists()) signingConfig signingConfigs.localRelease } }
+    androidResources { noCompress += ['webp'] }
+}

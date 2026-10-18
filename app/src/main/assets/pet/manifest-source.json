@@ -1,0 +1,932 @@
+{
+  "schema": 2,
+  "format": "vp9-alpha-webm",
+  "source": "https://github.com/PC2005-cloud/dsh-pet",
+  "commit": "7f507e20e5b4f64cc9d51a44454ba13b13e789cd",
+  "license": "MIT",
+  "canvas": {
+    "width": 640,
+    "height": 360
+  },
+  "hitBox": {
+    "x": 200,
+    "y": 50,
+    "width": 240,
+    "height": 285
+  },
+  "scale": 0.5,
+  "outfits": [
+    {
+      "id": "daily",
+      "label": "蓝白常服"
+    }
+  ],
+  "clips": {
+    "idle": {
+      "file": "dsh/webm/待机呼吸休闲.webm"
+    },
+    "greet": {
+      "file": "dsh/webm/点击回应-元气挥手.webm"
+    },
+    "happy": {
+      "file": "dsh/webm/点击回应-开心跃动.webm"
+    },
+    "shy": {
+      "file": "dsh/webm/点击回应-害羞惊讶.webm"
+    },
+    "laugh": {
+      "file": "dsh/webm/点击回应-挠痒咯咯笑.webm"
+    },
+    "proud": {
+      "file": "dsh/webm/点击回应-傲娇生气.webm"
+    },
+    "walk": {
+      "file": "dsh/webm/原地漂浮踏步.webm",
+      "movement": {
+        "minDist": 40,
+        "maxDist": 120,
+        "margin": 20,
+        "leadSec": 2,
+        "tailSec": 2
+      }
+    },
+    "run": {
+      "file": "dsh/webm/原地左转奔跑.webm",
+      "movement": {
+        "minDist": 120,
+        "maxDist": 320,
+        "margin": 20,
+        "leadSec": 1.75,
+        "tailSec": 4.8
+      }
+    },
+    "rest": {
+      "file": "dsh/webm/原地小憩沉眠.webm"
+    },
+    "reading": {
+      "file": "dsh/webm/轻快记录.webm"
+    },
+    "working": {
+      "file": "dsh/webm/写代码.webm"
+    },
+    "done": {
+      "file": "dsh/webm/工作状态-雀跃庆祝.webm"
+    },
+    "eat_snacks": {
+      "file": "dsh/webm/大口吃零食.webm"
+    },
+    "eat_rice": {
+      "file": "dsh/webm/吃白饭.webm"
+    },
+    "play_bubbles": {
+      "file": "dsh/webm/鲸鱼吐泡泡特效.webm"
+    },
+    "play_stars": {
+      "file": "dsh/webm/原地跳跃抓碎头顶物品.webm"
+    },
+    "action_000": {
+      "file": "dsh/webm/三球抛接.webm"
+    },
+    "action_001": {
+      "file": "dsh/webm/下五子棋.webm"
+    },
+    "action_002": {
+      "file": "dsh/webm/东张西望.webm"
+    },
+    "action_003": {
+      "file": "dsh/webm/中秋赏月吃月饼.webm"
+    },
+    "action_004": {
+      "file": "dsh/webm/优雅女仆舞.webm"
+    },
+    "action_005": {
+      "file": "dsh/webm/余额-分文不剩.webm"
+    },
+    "action_006": {
+      "file": "dsh/webm/余额-数金皱眉.webm"
+    },
+    "action_007": {
+      "file": "dsh/webm/余额-袋空如洗.webm"
+    },
+    "action_008": {
+      "file": "dsh/webm/余额-金袋叮当.webm"
+    },
+    "action_009": {
+      "file": "dsh/webm/余额-钱袋如常.webm"
+    },
+    "action_010": {
+      "file": "dsh/webm/余额-钱袋满溢.webm"
+    },
+    "action_011": {
+      "file": "dsh/webm/偷吃零食被抓住.webm"
+    },
+    "action_013": {
+      "file": "dsh/webm/写福字.webm"
+    },
+    "action_014": {
+      "file": "dsh/webm/凭空生花.webm"
+    },
+    "action_015": {
+      "file": "dsh/webm/动物环绕.webm"
+    },
+    "action_016": {
+      "file": "dsh/webm/原地专心玩魔方.webm"
+    },
+    "action_019": {
+      "file": "dsh/webm/原地敲击桌面互动.webm"
+    },
+    "action_022": {
+      "file": "dsh/webm/原地蹲下玩玩具汽车.webm"
+    },
+    "action_023": {
+      "file": "dsh/webm/原地重力下蹲压缩.webm"
+    },
+    "action_024": {
+      "file": "dsh/webm/变鸽子.webm"
+    },
+    "action_025": {
+      "file": "dsh/webm/可爱宅舞.webm"
+    },
+    "action_026": {
+      "file": "dsh/webm/吃Token.webm"
+    },
+    "action_027": {
+      "file": "dsh/webm/吃冰淇淋融化.webm"
+    },
+    "action_028": {
+      "file": "dsh/webm/吃午餐.webm"
+    },
+    "action_029": {
+      "file": "dsh/webm/吃大闸蟹.webm"
+    },
+    "action_030": {
+      "file": "dsh/webm/吃年糕.webm"
+    },
+    "action_031": {
+      "file": "dsh/webm/吃早餐.webm"
+    },
+    "action_032": {
+      "file": "dsh/webm/吃晚餐.webm"
+    },
+    "action_033": {
+      "file": "dsh/webm/吃汤圆.webm"
+    },
+    "action_035": {
+      "file": "dsh/webm/吃粽子.webm"
+    },
+    "action_036": {
+      "file": "dsh/webm/吃糖葫芦.webm"
+    },
+    "action_037": {
+      "file": "dsh/webm/吃腊八粥.webm"
+    },
+    "action_038": {
+      "file": "dsh/webm/吃西瓜.webm"
+    },
+    "action_039": {
+      "file": "dsh/webm/吃重阳糕.webm"
+    },
+    "action_040": {
+      "file": "dsh/webm/吃长寿面.webm"
+    },
+    "action_041": {
+      "file": "dsh/webm/吃青团.webm"
+    },
+    "action_042": {
+      "file": "dsh/webm/吃饺子.webm"
+    },
+    "action_043": {
+      "file": "dsh/webm/吹气球.webm"
+    },
+    "action_044": {
+      "file": "dsh/webm/吹笛子.webm"
+    },
+    "action_045": {
+      "file": "dsh/webm/哈欠连天.webm"
+    },
+    "action_046": {
+      "file": "dsh/webm/堆雪人.webm"
+    },
+    "action_048": {
+      "file": "dsh/webm/女仆屈膝礼仪.webm"
+    },
+    "action_049": {
+      "file": "dsh/webm/小幅度原地360度旋转展示.webm"
+    },
+    "action_050": {
+      "file": "dsh/webm/小提琴演奏.webm"
+    },
+    "action_051": {
+      "file": "dsh/webm/工作状态-原地踱步张望.webm"
+    },
+    "action_052": {
+      "file": "dsh/webm/工作状态-垂头叹气冒汗.webm"
+    },
+    "action_053": {
+      "file": "dsh/webm/工作状态-忙碌点按.webm"
+    },
+    "action_054": {
+      "file": "dsh/webm/工作状态-思考冒泡.webm"
+    },
+    "action_055": {
+      "file": "dsh/webm/工作状态-清点归档.webm"
+    },
+    "action_058": {
+      "file": "dsh/webm/悠闲哼歌.webm"
+    },
+    "action_059": {
+      "file": "dsh/webm/扑克魔术.webm"
+    },
+    "action_060": {
+      "file": "dsh/webm/打瞌睡被惊醒.webm"
+    },
+    "action_061": {
+      "file": "dsh/webm/抽陀螺.webm"
+    },
+    "action_062": {
+      "file": "dsh/webm/拆礼物.webm"
+    },
+    "action_063": {
+      "file": "dsh/webm/插茱萸赏菊.webm"
+    },
+    "action_064": {
+      "file": "dsh/webm/摇扇纳凉.webm"
+    },
+    "action_065": {
+      "file": "dsh/webm/撸猫.webm"
+    },
+    "action_066": {
+      "file": "dsh/webm/收红包.webm"
+    },
+    "action_067": {
+      "file": "dsh/webm/放孔明灯.webm"
+    },
+    "action_068": {
+      "file": "dsh/webm/放河灯.webm"
+    },
+    "action_069": {
+      "file": "dsh/webm/放烟花.webm"
+    },
+    "action_070": {
+      "file": "dsh/webm/放风筝.webm"
+    },
+    "action_071": {
+      "file": "dsh/webm/整体换装试色.webm"
+    },
+    "action_072": {
+      "file": "dsh/webm/是啊，吃什么.webm"
+    },
+    "action_073": {
+      "file": "dsh/webm/晨间刷牙.webm"
+    },
+    "action_074": {
+      "file": "dsh/webm/涮火锅.webm"
+    },
+    "action_075": {
+      "file": "dsh/webm/深度思考碎碎念.webm"
+    },
+    "action_081": {
+      "file": "dsh/webm/照镜子.webm"
+    },
+    "action_082": {
+      "file": "dsh/webm/玩水枪.webm"
+    },
+    "action_083": {
+      "file": "dsh/webm/玩游戏气急败坏.webm"
+    },
+    "action_084": {
+      "file": "dsh/webm/用鲸鱼尾巴拍打地面.webm"
+    },
+    "action_085": {
+      "file": "dsh/webm/碎碎念-发呆碎碎念.webm"
+    },
+    "action_086": {
+      "file": "dsh/webm/碎碎念-对屏碎碎念.webm"
+    },
+    "action_087": {
+      "file": "dsh/webm/碎碎念-擦桌碎碎念.webm"
+    },
+    "action_088": {
+      "file": "dsh/webm/穿针乞巧.webm"
+    },
+    "action_089": {
+      "file": "dsh/webm/舞狮头.webm"
+    },
+    "action_090": {
+      "file": "dsh/webm/荡秋千.webm"
+    },
+    "action_091": {
+      "file": "dsh/webm/萌化小幽灵.webm"
+    },
+    "action_092": {
+      "file": "dsh/webm/蓝鲸现世.webm"
+    },
+    "action_093": {
+      "file": "dsh/webm/蝴蝶蜜蜂环绕头顶开花.webm"
+    },
+    "action_094": {
+      "file": "dsh/webm/螃蟹走路.webm",
+      "movement": {
+        "minDist": 60,
+        "maxDist": 240,
+        "margin": 20,
+        "leadSec": 2,
+        "tailSec": 2
+      }
+    },
+    "action_095": {
+      "file": "dsh/webm/被吓一跳.webm"
+    },
+    "action_096": {
+      "file": "dsh/webm/被落叶淹没.webm"
+    },
+    "action_097": {
+      "file": "dsh/webm/被鼠标拖拽悬空反馈.webm"
+    },
+    "action_098": {
+      "file": "dsh/webm/装点圣诞树.webm"
+    },
+    "action_099": {
+      "file": "dsh/webm/讨糖南瓜灯.webm"
+    },
+    "action_100": {
+      "file": "dsh/webm/超大伸懒腰.webm"
+    },
+    "action_101": {
+      "file": "dsh/webm/踢毽子.webm"
+    },
+    "action_102": {
+      "file": "dsh/webm/轻快摇摆舞.webm"
+    },
+    "action_104": {
+      "file": "dsh/webm/骑木马.webm"
+    }
+  },
+  "actions": [
+    {
+      "id": "action_000",
+      "name": "三球抛接",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_001",
+      "name": "下五子棋",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_002",
+      "name": "东张西望",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_003",
+      "name": "中秋赏月吃月饼",
+      "category": "时节"
+    },
+    {
+      "id": "action_004",
+      "name": "优雅女仆舞",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_005",
+      "name": "余额-分文不剩",
+      "category": "钱袋表演"
+    },
+    {
+      "id": "action_006",
+      "name": "余额-数金皱眉",
+      "category": "钱袋表演"
+    },
+    {
+      "id": "action_007",
+      "name": "余额-袋空如洗",
+      "category": "钱袋表演"
+    },
+    {
+      "id": "action_008",
+      "name": "余额-金袋叮当",
+      "category": "钱袋表演"
+    },
+    {
+      "id": "action_009",
+      "name": "余额-钱袋如常",
+      "category": "钱袋表演"
+    },
+    {
+      "id": "action_010",
+      "name": "余额-钱袋满溢",
+      "category": "钱袋表演"
+    },
+    {
+      "id": "action_011",
+      "name": "偷吃零食被抓住",
+      "category": "小动作"
+    },
+    {
+      "id": "working",
+      "name": "写代码",
+      "category": "小动作"
+    },
+    {
+      "id": "action_013",
+      "name": "写福字",
+      "category": "时节"
+    },
+    {
+      "id": "action_014",
+      "name": "凭空生花",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_015",
+      "name": "动物环绕",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_016",
+      "name": "原地专心玩魔方",
+      "category": "玩耍"
+    },
+    {
+      "id": "rest",
+      "name": "原地小憩沉眠",
+      "category": "小动作"
+    },
+    {
+      "id": "run",
+      "name": "原地左转奔跑",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_019",
+      "name": "原地敲击桌面互动",
+      "category": "小动作"
+    },
+    {
+      "id": "walk",
+      "name": "原地漂浮踏步",
+      "category": "走动与互动"
+    },
+    {
+      "id": "play_stars",
+      "name": "原地跳跃抓碎头顶物品",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_022",
+      "name": "原地蹲下玩玩具汽车",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_023",
+      "name": "原地重力下蹲压缩",
+      "category": "小动作"
+    },
+    {
+      "id": "action_024",
+      "name": "变鸽子",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_025",
+      "name": "可爱宅舞",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_026",
+      "name": "吃Token",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_027",
+      "name": "吃冰淇淋融化",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_028",
+      "name": "吃午餐",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_029",
+      "name": "吃大闸蟹",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_030",
+      "name": "吃年糕",
+      "category": "时节"
+    },
+    {
+      "id": "action_031",
+      "name": "吃早餐",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_032",
+      "name": "吃晚餐",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_033",
+      "name": "吃汤圆",
+      "category": "时节"
+    },
+    {
+      "id": "eat_rice",
+      "name": "吃白饭",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_035",
+      "name": "吃粽子",
+      "category": "时节"
+    },
+    {
+      "id": "action_036",
+      "name": "吃糖葫芦",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_037",
+      "name": "吃腊八粥",
+      "category": "时节"
+    },
+    {
+      "id": "action_038",
+      "name": "吃西瓜",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_039",
+      "name": "吃重阳糕",
+      "category": "时节"
+    },
+    {
+      "id": "action_040",
+      "name": "吃长寿面",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_041",
+      "name": "吃青团",
+      "category": "时节"
+    },
+    {
+      "id": "action_042",
+      "name": "吃饺子",
+      "category": "时节"
+    },
+    {
+      "id": "action_043",
+      "name": "吹气球",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_044",
+      "name": "吹笛子",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_045",
+      "name": "哈欠连天",
+      "category": "小动作"
+    },
+    {
+      "id": "action_046",
+      "name": "堆雪人",
+      "category": "时节"
+    },
+    {
+      "id": "eat_snacks",
+      "name": "大口吃零食",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_048",
+      "name": "女仆屈膝礼仪",
+      "category": "小动作"
+    },
+    {
+      "id": "action_049",
+      "name": "小幅度原地360度旋转展示",
+      "category": "小动作"
+    },
+    {
+      "id": "action_050",
+      "name": "小提琴演奏",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_051",
+      "name": "工作状态-原地踱步张望",
+      "category": "工作状态"
+    },
+    {
+      "id": "action_052",
+      "name": "工作状态-垂头叹气冒汗",
+      "category": "工作状态"
+    },
+    {
+      "id": "action_053",
+      "name": "工作状态-忙碌点按",
+      "category": "工作状态"
+    },
+    {
+      "id": "action_054",
+      "name": "工作状态-思考冒泡",
+      "category": "工作状态"
+    },
+    {
+      "id": "action_055",
+      "name": "工作状态-清点归档",
+      "category": "工作状态"
+    },
+    {
+      "id": "done",
+      "name": "工作状态-雀跃庆祝",
+      "category": "工作状态"
+    },
+    {
+      "id": "idle",
+      "name": "待机呼吸休闲",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_058",
+      "name": "悠闲哼歌",
+      "category": "小动作"
+    },
+    {
+      "id": "action_059",
+      "name": "扑克魔术",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_060",
+      "name": "打瞌睡被惊醒",
+      "category": "小动作"
+    },
+    {
+      "id": "action_061",
+      "name": "抽陀螺",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_062",
+      "name": "拆礼物",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_063",
+      "name": "插茱萸赏菊",
+      "category": "时节"
+    },
+    {
+      "id": "action_064",
+      "name": "摇扇纳凉",
+      "category": "小动作"
+    },
+    {
+      "id": "action_065",
+      "name": "撸猫",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_066",
+      "name": "收红包",
+      "category": "时节"
+    },
+    {
+      "id": "action_067",
+      "name": "放孔明灯",
+      "category": "时节"
+    },
+    {
+      "id": "action_068",
+      "name": "放河灯",
+      "category": "时节"
+    },
+    {
+      "id": "action_069",
+      "name": "放烟花",
+      "category": "时节"
+    },
+    {
+      "id": "action_070",
+      "name": "放风筝",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_071",
+      "name": "整体换装试色",
+      "category": "小动作"
+    },
+    {
+      "id": "action_072",
+      "name": "是啊，吃什么",
+      "category": "文字"
+    },
+    {
+      "id": "action_073",
+      "name": "晨间刷牙",
+      "category": "小动作"
+    },
+    {
+      "id": "action_074",
+      "name": "涮火锅",
+      "category": "吃什么"
+    },
+    {
+      "id": "action_075",
+      "name": "深度思考碎碎念",
+      "category": "文字"
+    },
+    {
+      "id": "proud",
+      "name": "点击回应-傲娇生气",
+      "category": "点击回应"
+    },
+    {
+      "id": "greet",
+      "name": "点击回应-元气挥手",
+      "category": "点击回应"
+    },
+    {
+      "id": "shy",
+      "name": "点击回应-害羞惊讶",
+      "category": "点击回应"
+    },
+    {
+      "id": "happy",
+      "name": "点击回应-开心跃动",
+      "category": "点击回应"
+    },
+    {
+      "id": "laugh",
+      "name": "点击回应-挠痒咯咯笑",
+      "category": "点击回应"
+    },
+    {
+      "id": "action_081",
+      "name": "照镜子",
+      "category": "小动作"
+    },
+    {
+      "id": "action_082",
+      "name": "玩水枪",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_083",
+      "name": "玩游戏气急败坏",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_084",
+      "name": "用鲸鱼尾巴拍打地面",
+      "category": "小动作"
+    },
+    {
+      "id": "action_085",
+      "name": "碎碎念-发呆碎碎念",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_086",
+      "name": "碎碎念-对屏碎碎念",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_087",
+      "name": "碎碎念-擦桌碎碎念",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_088",
+      "name": "穿针乞巧",
+      "category": "时节"
+    },
+    {
+      "id": "action_089",
+      "name": "舞狮头",
+      "category": "时节"
+    },
+    {
+      "id": "action_090",
+      "name": "荡秋千",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_091",
+      "name": "萌化小幽灵",
+      "category": "时节"
+    },
+    {
+      "id": "action_092",
+      "name": "蓝鲸现世",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_093",
+      "name": "蝴蝶蜜蜂环绕头顶开花",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_094",
+      "name": "螃蟹走路",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_095",
+      "name": "被吓一跳",
+      "category": "小动作"
+    },
+    {
+      "id": "action_096",
+      "name": "被落叶淹没",
+      "category": "时节"
+    },
+    {
+      "id": "action_097",
+      "name": "被鼠标拖拽悬空反馈",
+      "category": "走动与互动"
+    },
+    {
+      "id": "action_098",
+      "name": "装点圣诞树",
+      "category": "时节"
+    },
+    {
+      "id": "action_099",
+      "name": "讨糖南瓜灯",
+      "category": "时节"
+    },
+    {
+      "id": "action_100",
+      "name": "超大伸懒腰",
+      "category": "小动作"
+    },
+    {
+      "id": "action_101",
+      "name": "踢毽子",
+      "category": "玩耍"
+    },
+    {
+      "id": "action_102",
+      "name": "轻快摇摆舞",
+      "category": "玩耍"
+    },
+    {
+      "id": "reading",
+      "name": "轻快记录",
+      "category": "小动作"
+    },
+    {
+      "id": "action_104",
+      "name": "骑木马",
+      "category": "玩耍"
+    },
+    {
+      "id": "play_bubbles",
+      "name": "鲸鱼吐泡泡特效",
+      "category": "玩耍"
+    }
+  ],
+  "pools": {
+    "click": [
+      "happy",
+      "shy",
+      "proud",
+      "laugh",
+      "greet"
+    ],
+    "walk": [
+      "action_094",
+      "walk",
+      "run"
+    ],
+    "work": [
+      "working",
+      "action_051",
+      "action_052",
+      "action_053",
+      "action_054",
+      "action_055",
+      "done",
+      "action_075",
+      "reading"
+    ],
+    "rest": [
+      "rest",
+      "action_060",
+      "action_045",
+      "action_100",
+      "idle",
+      "action_058",
+      "action_064",
+      "action_085"
+    ]
+  }
+}

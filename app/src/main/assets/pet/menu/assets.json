@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "tool": "built-in image_gen",
+  "identityReference": "assets/stickers/whale-states-v1.png",
+  "assets": {
+    "daily": {
+      "file": "daily.webp",
+      "width": 384,
+      "height": 384,
+      "alpha": true,
+      "state": "walking",
+      "purpose": "鲸鱼娘角色本人，菜单头像与状态插画"
+    },
+    "resting": {
+      "file": "resting.webp",
+      "width": 384,
+      "height": 384,
+      "alpha": true,
+      "state": "resting",
+      "purpose": "鲸鱼娘角色本人，菜单头像与状态插画"
+    }
+  }
+}

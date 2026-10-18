@@ -1,0 +1,27 @@
+# Local Android configuration, generated builds and caches
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+__pycache__/
+*.pyc
+.tmp/
+
+# Release binaries are uploaded as GitHub Release assets
+*.apk
+*.aab
+
+# Private signing material stays on this computer
+signing/*
+!signing/README.md
+*.jks
+*.keystore
+
+# Local historical archives and emulator data are never published
+backups/
+.reference/
+screenshots/
+.qa-*/
+emulator*.log
+tests/output/
