@@ -30,7 +30,7 @@ NativeTests 共 32 项，覆盖全部 106 段动画解码、人物注册、状�
 
 ## 正式包
 
-`release/泡泡鲸-2.3.0.apk`，191440043 字节；com.whale.pet / versionCode 11。
+`release/whale-pet-Android-2.3.0.apk`，191440043 字节；com.whale.pet / versionCode 11。
 
 APK SHA256：`7b8cf32ee743a95d17ca14e2effb8e4d5bd5c98b2e901dd32891335541f5ed69`。
 
